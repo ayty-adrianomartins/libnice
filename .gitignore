@@ -170,18 +170,6 @@ examples/simple-example
 examples/threaded-example
 examples/sdp-example
 
-# docs/ stuff
-docs/reference/libnice/libnice*.txt
-docs/reference/libnice/libnice.args
-docs/reference/libnice/libnice.hierarchy
-docs/reference/libnice/libnice.interfaces
-docs/reference/libnice/libnice.prerequisites
-docs/reference/libnice/libnice.signals
-docs/reference/libnice/libnice.types
-docs/reference/libnice/html
-docs/reference/libnice/tmpl
-docs/reference/libnice/xml
-
 # win32 stuff
 win32/vs9/libnice.def
 win32/vs9/*.user

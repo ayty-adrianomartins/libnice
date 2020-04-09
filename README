@@ -36,7 +36,6 @@ Structure
 ---------
 
  agent/   - ICE agent
- docs/    - Design and API documentation
  gst/     - Gstreamer elements
  nice/    - libnice library
  random/  - random number generation

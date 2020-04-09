@@ -38,7 +38,6 @@ test autotools:
       - random/test-suite.log
       - tests/test-suite.log
       - stun/tests/test-suite.log
-      - docs/reference/libnice/test-suite.log
 
 test autotools valgrind:
   extends: test autotools
@@ -203,9 +202,6 @@ doc-and-install meson:
     - ninja-build -C build/ libnice-doc
     - ninja-build -C build/ install
     - ls -lR ${PREFIX}
-  artifacts:
-    paths:
-      - build/docs/reference/libnice/html/
 
 submit-to-coverity:
  stage: test
@@ -245,4 +241,3 @@ documentation:
 #  trigger: libnice/libnice-
   script:
     - mkdir public/
-    - mv build/docs/reference/libnice/html/ public/libnice/
